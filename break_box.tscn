@@ -1,7 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://brsapyyi8hdo7"]
+[gd_scene load_steps=9 format=3 uid="uid://brsapyyi8hdo7"]
 
 [ext_resource type="Script" path="res://break_box.gd" id="1_xlamm"]
 [ext_resource type="Texture2D" uid="uid://byjqvvvrfr5cy" path="res://Assets Jogos/Nossos Sprites/Titles/tijolo.png" id="2_74fxr"]
+[ext_resource type="Shader" path="res://Assets Jogos/Nossos Sprites/Titles/hit_flash.gdshader" id="2_lkawi"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pw0gg"]
+shader = ExtResource("2_lkawi")
+shader_parameter/active = false
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5517a"]
 size = Vector2(16, 16)
@@ -74,6 +79,7 @@ pieces = PackedStringArray("res://Assets Jogos/Nossos Sprites/Titles/tijolo-peda
 hitpoints = 5
 
 [node name="texture" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_pw0gg")
 texture = ExtResource("2_74fxr")
 region_enabled = true
 region_rect = Rect2(0, 0, 16, 16)
