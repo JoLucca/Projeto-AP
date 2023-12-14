@@ -6,5 +6,8 @@ res://Levels.tscn
 res://Actors/player.tscn
 res://break_box.tscn
 res://Shader/arvore.tscn
+<<<<<<< Updated upstream
 res://break_box.gd
 res://Scripts/enemy.gd
+=======
+>>>>>>> Stashed changes
