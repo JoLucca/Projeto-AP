@@ -1,0 +1,134 @@
+[gd_scene load_steps=9 format=3 uid="uid://dp84q4c4oig7p"]
+
+[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_8i5c1"]
+[ext_resource type="Texture2D" uid="uid://3q7uhus86iqw" path="res://Assets Jogos/Mini FX, Items & UI/Daniel/Cogu.png" id="1_jhh8k"]
+[ext_resource type="PackedScene" uid="uid://dlh0q0o12263b" path="res://Actors/hitbox.tscn" id="3_hds58"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xpieo"]
+size = Vector2(14, 12)
+
+[sub_resource type="Animation" id="Animation_ii6lo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_jhh8k")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_2sp45"]
+resource_name = "walk"
+length = 7.0
+loop_mode = 1
+step = 0.875
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_jhh8k")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.9, 1.8, 2.7, 3.6, 4.5, 5.4, 6.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jcw1s"]
+_data = {
+"RESET": SubResource("Animation_ii6lo"),
+"walk": SubResource("Animation_2sp45")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uffmo"]
+size = Vector2(8, 2.65625)
+
+[node name="enemy" type="CharacterBody2D" groups=["enemies"]]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_8i5c1")
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6)
+shape = SubResource("RectangleShape2D_xpieo")
+
+[node name="texture" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("1_jhh8k")
+flip_h = true
+hframes = 9
+
+[node name="anim" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jcw1s")
+}
+autoplay = "walk"
+speed_scale = 1.757
+
+[node name="wall_detector" type="RayCast2D" parent="."]
+position = Vector2(0, -10)
+target_position = Vector2(-8, 0)
+collision_mask = 6
+
+[node name="hitbox" parent="." instance=ExtResource("3_hds58")]
+position = Vector2(0, -10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(0, -4.32813)
+shape = SubResource("RectangleShape2D_uffmo")
+
+[connection signal="animation_finished" from="anim" to="." method="_on_anim_animation_finished"]

@@ -1,0 +1,14 @@
+Sprite2D
+CollisionShape2D
+Area2D
+VisibleOnScreenNotifier2D
+RigidBody2D
+AnimationPlayer
+CharacterBody2D
+RayCast2D
+RemoteTransform2D
+Node2D
+AnimatedSprite2D
+AnimatableBody2D
+ParallaxLayer
+ParallaxBackground
