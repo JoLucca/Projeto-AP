@@ -16,7 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://c3rlryagexrvq" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png" id="11_y1aoj"]
 [ext_resource type="Texture2D" uid="uid://kl0wnvlhp2bg" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png" id="12_brjcp"]
 [ext_resource type="PackedScene" uid="uid://brsapyyi8hdo7" path="res://break_box.tscn" id="14_c3ji8"]
-[ext_resource type="Texture2D" uid="uid://drefuvuh3ta4a" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png" id="14_y7w6k"]
+[ext_resource type="Texture2D" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png" id="14_y7w6k"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_qewrh"]
 tile_data = PackedInt32Array(0, 65537, 1)
