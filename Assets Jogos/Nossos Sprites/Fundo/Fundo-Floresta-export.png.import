@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgfhutc3d5um3"
-path="res://.godot/imported/Fundo-Floresta.png-331144c503f6b37889e15d55a376dd55.ctex"
+uid="uid://drefuvuh3ta4a"
+path="res://.godot/imported/Fundo-Floresta-export.png-24d6e5de1804ee621a93c0d736102ada.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta.png"
-dest_files=["res://.godot/imported/Fundo-Floresta.png-331144c503f6b37889e15d55a376dd55.ctex"]
+source_file="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png"
+dest_files=["res://.godot/imported/Fundo-Floresta-export.png-24d6e5de1804ee621a93c0d736102ada.ctex"]
 
 [params]
 

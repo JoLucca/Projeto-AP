@@ -13,8 +13,8 @@
 [ext_resource type="Texture2D" uid="uid://be8ikud2s31v" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Montanha.png" id="9_rjjsu"]
 [ext_resource type="Texture2D" uid="uid://c3rlryagexrvq" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png" id="11_y1aoj"]
 [ext_resource type="Texture2D" uid="uid://kl0wnvlhp2bg" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png" id="12_brjcp"]
-[ext_resource type="Texture2D" uid="uid://dgfhutc3d5um3" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta.png" id="13_spx64"]
 [ext_resource type="PackedScene" uid="uid://brsapyyi8hdo7" path="res://break_box.tscn" id="14_c3ji8"]
+[ext_resource type="Texture2D" uid="uid://drefuvuh3ta4a" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png" id="14_y7w6k"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_qewrh"]
 tile_data = PackedInt32Array(0, 65537, 1)
@@ -410,7 +410,7 @@ motion_mirroring = Vector2(432, 0)
 
 [node name="texture" type="Sprite2D" parent="BG/01"]
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("13_spx64")
+texture = ExtResource("14_y7w6k")
 centered = false
 
 [node name="camera" type="Camera2D" parent="."]

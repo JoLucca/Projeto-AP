@@ -1,249 +1,40 @@
 ea4bc82a6ad023ab7ee23ee620429895
-<<<<<<< Updated upstream
-::res://::1702533735
-break_box.gd::GDScript::-1::1702533041::0::1::::<>CharacterBody2D<>::
-break_box.tscn::PackedScene::3616817910064872016::1702533164::0::1::::<><>::res://break_box.gd<>uid://byjqvvvrfr5cy::::res://Assets Jogos/Nossos Sprites/Titles/tijolo.png<>res://Assets Jogos/Nossos Sprites/Titles/hit_flash.gdshader
-coin.tscn::PackedScene::335886411080178593::1702154826::0::1::::<><>::uid://b110m13rn8ogh::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Coin.png<>res://Scripts/coin.gd
-icon.svg::CompressedTexture2D::6329831594020881352::1702010375::1702010387::1::::<><>::
-Levels.tscn::PackedScene::7109732565532522983::1702533163::0::1::::<><>::uid://c30ivyxexsh8b::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>res://Scripts/world-01.gd<>uid://c03sjunwcsrwt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://bobdifxrvdbl3::::res://Prefabs/moving_platform.tscn<>res://TreeShader.gdshader<>uid://e1yaaeugd7ub::::res://coin.tscn<>uid://b3nkwrvno4tgm::::res://Actors/player.tscn<>uid://bcglyld43kykt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://dp84q4c4oig7p::::res://Actors/enemy.tscn<>res://Shader/movement_clounds.gdshader<>uid://be8ikud2s31v::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Montanha.png<>uid://c3rlryagexrvq::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png<>uid://kl0wnvlhp2bg::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png<>uid://dgfhutc3d5um3::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta.png<>uid://brsapyyi8hdo7::::res://break_box.tscn
-Scripts.gd::GDScript::-1::1702414421::0::1::::<>CharacterBody2D<>::
-TreeShader.gdshader::Shader::-1::1702533164::0::1::::<><>::
-::res://Actors/::1702533164
-enemy.tscn::PackedScene::8282010064629888807::1702262421::0::1::::<><>::res://Scripts/enemy.gd<>uid://3q7uhus86iqw::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Cogu.png<>uid://dlh0q0o12263b::::res://Actors/hitbox.tscn
-hitbox.tscn::PackedScene::7947337808827233277::1702173520::0::1::::<><>::
-player.tscn::PackedScene::4379192599702733644::1702533164::0::1::::<><>::res://Scripts.gd<>uid://bes8r1h4ccotw::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/REFORMULADO PARADO.png<>uid://3n2qmo8acls7::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/Andando.png<>uid://dj8n7cktraq81::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/lenhapulo.png
-::res://addons/::1702533735
-::res://addons/todo_4/::1702533738
-CHANGELOG.md::TextFile::-1::1702533735::0::1::::<><>::
-notes.tscn::PackedScene::8060417247438541673::1702533738::0::1::::<><>::uid://bbl1guv1hfmns::::res://addons/todo_4/icons/gui_tab_menu.svg<>uid://jjy6xfj4oorl::::res://addons/todo_4/icons/text_file.svg<>uid://dtla1pq67n8n8::::res://addons/todo_4/icons/reload.svg<>uid://dogfui2bv802h::::res://addons/todo_4/icons/add.svg<>uid://dxptrpo2jt0mg::::res://addons/todo_4/icons/close.svg<>uid://sb8xofh5lkhc::::res://addons/todo_4/icons/save.svg<>uid://htsedbq68cg2::::res://addons/todo_4/icons/settings.svg
-plugin.cfg::TextFile::-1::1702533738::0::1::::<><>::
-plugin.gd::GDScript::-1::1702533738::0::1::::TD4<>EditorPlugin<>::
-::res://addons/todo_4/config/::1702533737
-config.ini::TextFile::-1::1702533737::0::1::::<><>::
-::res://addons/todo_4/icons/::1702533738
-add.svg::CompressedTexture2D::8154631891349391161::1702533737::1702533739::1::::<><>::
-close.svg::CompressedTexture2D::8805755913140964234::1702533737::1702533739::1::::<><>::
-gui_tab_menu.svg::CompressedTexture2D::2480908123299930260::1702533737::1702533739::1::::<><>::
-reload.svg::CompressedTexture2D::8515605480157036583::1702533737::1702533739::1::::<><>::
-save.svg::CompressedTexture2D::1267509040669254896::1702533737::1702533739::1::::<><>::
-settings.svg::CompressedTexture2D::531645291723325991::1702533737::1702533739::1::::<><>::
-text_file.svg::CompressedTexture2D::651792776175591333::1702533737::1702533739::1::::<><>::
-::res://addons/todo_4/notes/::1702533738
-general.txt::TextFile::-1::1702533738::0::1::::<><>::
-plugin.txt::TextFile::-1::1702533738::0::1::::<><>::
-::res://addons/todo_4/src/::1702533738
-config_keys.gd::GDScript::-1::1702533738::0::1::::T4DConfigKeys<>RefCounted<>::
-notes.gd::GDScript::-1::1702533738::0::1::::TD4Notes<>TDPanel<>::
-panel.gd::GDScript::-1::1702533738::0::1::::TDPanel<>Node<>::
-settings.gd::GDScript::-1::1702533738::0::1::::TD4Settings<>TDPanel<>::
-::res://Assets Jogos/::1702450170
-::res://Assets Jogos/Mini FX, Items & UI/::1702136078
-LICENSE.txt::TextFile::-1::1702011025::0::1::::<><>::
-::res://Assets Jogos/Mini FX, Items & UI/Common Pick-ups/::1702011027
-Coin (16 x 16).png::CompressedTexture2D::3320320918488639215::1702011025::1702011027::1::::<><>::
-Health_Kit (16 x 16).png::CompressedTexture2D::5566491667069548062::1702011025::1702011027::1::::<><>::
-Heart_Spin (16 x 16).png::CompressedTexture2D::6591401876089408442::1702011025::1702011027::1::::<><>::
-Small_Coin (16 x 16).png::CompressedTexture2D::2333148940481843869::1702011025::1702011027::1::::<><>::
-Treasure_Chest (32 x 16).png::CompressedTexture2D::4715296168832116274::1702011025::1702011027::1::::<><>::
-Wrapped_Presents (16 x 16).png::CompressedTexture2D::4168042262619285574::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Mini FX, Items & UI/Daniel/::1702152126
-Cogu.png::CompressedTexture2D::2000296724999192222::1702152125::1702152126::1::::<><>::
-Coin.png::CompressedTexture2D::4266545203886232963::1702136067::1702136078::1::::<><>::
-::res://Assets Jogos/Mini FX, Items & UI/Effects/::1702011027
-Bright_Sparkle (16 x 16).png::CompressedTexture2D::9203249196074083992::1702011025::1702011027::1::::<><>::
-Cloud_Poof (16 x 16).png::CompressedTexture2D::8289527817928915552::1702011025::1702011027::1::::<><>::
-Dust (16 x 16).png::CompressedTexture2D::6067666914449397109::1702011025::1702011027::1::::<><>::
-Explosion_Poof (16 x 16).png::CompressedTexture2D::5433116661875397375::1702011025::1702011027::1::::<><>::
-Yellow_Sparkle (16 x 16).png::CompressedTexture2D::2158863952925363369::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Mini FX, Items & UI/Food Items/::1702011027
-Bottled_Drinks (16 x 16).png::CompressedTexture2D::6363055283543208539::1702011025::1702011027::1::::<><>::
-Burger_&_Fries (16 x 16).png::CompressedTexture2D::5773343301101788684::1702011025::1702011027::1::::<><>::
-Cake_Slices (16 x 16).png::CompressedTexture2D::3088397451177970101::1702011025::1702011027::1::::<><>::
-Chocolate_Bars (16 x 16).png::CompressedTexture2D::8067469097730366897::1702011025::1702011027::1::::<><>::
-Fruits (16 x 16).png::CompressedTexture2D::4624085857672518732::1702011025::1702011027::1::::<><>::
-Grilled_Panini (16 x 16).png::CompressedTexture2D::5646556171907761768::1702011025::1702011027::1::::<><>::
-Ice_Cream_Cones (16 x 16).png::CompressedTexture2D::6678320361333063096::1702011025::1702011027::1::::<><>::
-Milk_Cartons (16 x 16).png::CompressedTexture2D::6548122163305254465::1702011025::1702011027::1::::<><>::
-Pancake_Stack (16 x 16).png::CompressedTexture2D::7933305518238582652::1702011025::1702011027::1::::<><>::
-Salad_Bowl (16 x 16).png::CompressedTexture2D::2899493185865356663::1702011025::1702011027::1::::<><>::
-Sushi_Variety (16 x 16).png::CompressedTexture2D::4003396861144651708::1702011025::1702011027::1::::<><>::
-Wrapped_Candies (16 x 16).png::CompressedTexture2D::4614066169764549307::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Mini FX, Items & UI/Mini UI/::1702011028
-Health_Indicator_Black_Outline (8 x 8).png::CompressedTexture2D::6489345514724448457::1702011025::1702011027::1::::<><>::
-Health_Indicator_White_Outline (8 x 8).png::CompressedTexture2D::3296237819253828838::1702011025::1702011027::1::::<><>::
-Mouse_Icons_Outlined (16 x 16).png::CompressedTexture2D::5343423879478303477::1702011025::1702011027::1::::<><>::
-Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::2004780795260516413::1702011025::1702011028::1::::<><>::
-Speech_Emotes (16 x 16).png::CompressedTexture2D::6087959987060881248::1702011025::1702011028::1::::<><>::
-Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::1945625626181162718::1702011025::1702011028::1::::<><>::
-Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::2150779667881445047::1702011025::1702011028::1::::<><>::
-::res://Assets Jogos/Nossos Sprites/::1702412863
-::res://Assets Jogos/Nossos Sprites/Fundo/::1702412928
-Fundo-Flores1.png::CompressedTexture2D::726154519714260124::1702412340::1702412864::1::::<><>::
-Fundo-Floresta.png::CompressedTexture2D::7591178738815924644::1702412330::1702412862::1::::<><>::
-Fundo-Montanha.png::CompressedTexture2D::80464858069521817::1702412319::1702412858::1::::<><>::
-Fundo-Nuvem.png::CompressedTexture2D::6773922917326225110::1702412326::1702412856::1::::<><>::
-::res://Assets Jogos/Nossos Sprites/Titles/::1702532695
-hit_flash.gdshader::Shader::-1::1702532666::0::1::::<><>::
-tijolo-parte-2.png::CompressedTexture2D::8934386469290474724::1702412913::1702412929::1::::<><>::
-tijolo-parte-3.png::CompressedTexture2D::2205399769751629785::1702412913::1702412929::1::::<><>::
-tijolo-parte-4.png::CompressedTexture2D::1085963629803397773::1702412913::1702412929::1::::<><>::
-tijolo-pedaco-1.png::CompressedTexture2D::487745194626231860::1702412913::1702412929::1::::<><>::
-tijolo.png::CompressedTexture2D::4090542440559715084::1702412913::1702412923::1::::<><>::
-::res://Assets Jogos/Próprios/::1702450170
-::res://Assets Jogos/Próprios/Blocos/::1702532695
-Arvoras.png::CompressedTexture2D::5828336987173552898::1702450068::1702450175::1::::<><>::
-tijolo-parte-2.png::CompressedTexture2D::3714938761235215130::1702412798::1702450175::1::::<><>::
-tijolo-parte-3.png::CompressedTexture2D::330452466937042029::1702412790::1702450175::1::::<><>::
-tijolo-parte-4.png::CompressedTexture2D::2516245926647574820::1702412777::1702450175::1::::<><>::
-tijolo-pedaco-1.png::CompressedTexture2D::1798116731497529783::1702412795::1702450175::1::::<><>::
-tijolo.png::CompressedTexture2D::7875457911011739363::1702412801::1702450175::1::::<><>::
-::res://Assets Jogos/Próprios/Enemies/::1702450175
-Cogu.png::CompressedTexture2D::5217460672952523620::1702152113::1702450175::1::::<><>::
-::res://Assets Jogos/Próprios/Fundo/::1702450175
-Fundo-Ceu.png::CompressedTexture2D::6859184986826952891::1702412071::1702450175::1::::<><>::
-Fundo-Flores1.png::CompressedTexture2D::8696605589434819390::1702412080::1702450175::1::::<><>::
-Fundo-Floresta.png::CompressedTexture2D::5215053919120419008::1702412076::1702450175::1::::<><>::
-Fundo-Montanha.png::CompressedTexture2D::762717267589922295::1702412084::1702450175::1::::<><>::
-Fundo-Nuvem.png::CompressedTexture2D::550343983268542020::1702412065::1702450175::1::::<><>::
-::res://Assets Jogos/Próprios/Itens/::1702450175
-Coin.png::CompressedTexture2D::8954047241509542605::1702136058::1702450175::1::::<><>::
-::res://Assets Jogos/Próprios/Personagem/::1702450175
-Andando Frame 1.png::CompressedTexture2D::9025588226336732606::1702075975::1702450175::1::::<><>::
-Andando Frame 2.png::CompressedTexture2D::4458107710952978165::1702076013::1702450175::1::::<><>::
-Andando.png::CompressedTexture2D::2049768995799472722::1702079837::1702450175::1::::<><>::
-lenha-parado.png::CompressedTexture2D::2082160571887882680::1702073227::1702450175::1::::<><>::
-lenhapulo.png::CompressedTexture2D::2458357117911987357::1702104886::1702450175::1::::<><>::
-REFORMULADO PARADO.png::CompressedTexture2D::5526673191532782403::1702104900::1702450175::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/::1702011025
-LICENSE.txt::TextFile::-1::1702011025::0::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/::1702013455
-Extra_plants (16 x 16).png::CompressedTexture2D::8635081950167683597::1702011025::1702011027::1::::<><>::
-Grassland_entities (16 x 16).png::CompressedTexture2D::6586475085018066035::1702011025::1702011027::1::::<><>::
-Terrain (16 x 16).png::CompressedTexture2D::6790262967020836927::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Background parts/::1702011028
-1 - Foreground_scenery.png::CompressedTexture2D::5043314776218277915::1702011025::1702011028::1::::<><>::
-2 - Hills.png::CompressedTexture2D::8530565433487646551::1702011025::1702011028::1::::<><>::
-3 - Cloud_cover_1.png::CompressedTexture2D::2679950725151690934::1702011025::1702011028::1::::<><>::
-4 - Cloud_cover_2.png::CompressedTexture2D::6268351958593317820::1702011025::1702011028::1::::<><>::
-5 - Sky_color.png::CompressedTexture2D::2539895967214403767::1702011025::1702011027::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::7120583016949220584::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/2 - Autumn Forest/::1702011027
-Autumn_entities (16 x 16).png::CompressedTexture2D::3437701799875920821::1702011025::1702011027::1::::<><>::
-Terrain (16 x 16).png::CompressedTexture2D::2532035190417959201::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/2 - Autumn Forest/Background parts/::1702011027
-1 - Leaf_top.png::CompressedTexture2D::609758120545909792::1702011025::1702011027::1::::<><>::
-2 - Trees.png::CompressedTexture2D::8976547636175641199::1702011025::1702011027::1::::<><>::
-3 - Bottom_leaf_piles.png::CompressedTexture2D::3335955113358627640::1702011025::1702011027::1::::<><>::
-4 - Tree_row_BG_1.png::CompressedTexture2D::2270685188619260231::1702011025::1702011027::1::::<><>::
-5 - Tree_row_BG_2.png::CompressedTexture2D::3564531112160173496::1702011025::1702011027::1::::<><>::
-6 - Distant_trees.png::CompressedTexture2D::5156235909477254967::1702011025::1702011027::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::8256411885750239692::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/3 - Tropics/::1702075217
-Terrain (16 x 16).png::CompressedTexture2D::5973534862181926063::1702011025::1702011026::1::::<><>::
-Tropics_entities (16 x 16).png::CompressedTexture2D::103264211733330449::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/3 - Tropics/Background parts/::1702011027
-1 - Waters_version_1.png::CompressedTexture2D::4498191083815384338::1702011025::1702011027::1::::<><>::
-2 - Waters_version_2.png::CompressedTexture2D::5266826698094152756::1702011025::1702011027::1::::<><>::
-3 - Floating_clouds.png::CompressedTexture2D::3146287036778083422::1702011025::1702011027::1::::<><>::
-4 - Background_clouds.png::CompressedTexture2D::5338267092609807066::1702011025::1702011027::1::::<><>::
-5 - Sky_color.png::CompressedTexture2D::7301406401888174896::1702011025::1702011027::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::6879612138754067542::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/3 - Tropics/Próprios/::1702075217
-lenha-parado.png::CompressedTexture2D::7475014343392266797::1702075217::1702075217::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/4 - Winter World/::1702011026
-Terrain (16 x 16).png::CompressedTexture2D::5188728002839457181::1702011025::1702011026::1::::<><>::
-Winter_entities (16 x 16).png::CompressedTexture2D::3022813187115782147::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/4 - Winter World/Background parts/::1702011026
-1 - Snowy_foreground_area.png::CompressedTexture2D::6105605291231416601::1702011025::1702011026::1::::<><>::
-2 - Smaller_mountains.png::CompressedTexture2D::8181650517368440588::1702011025::1702011026::1::::<><>::
-3 - Big_mountain_BG.png::CompressedTexture2D::8433299439641110903::1702011025::1702011026::1::::<><>::
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D::3805122600591993541::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Seasonal Tilesets/5 - Misc. universal tiles/::1702412260
-Blocks (16 x 16).png::CompressedTexture2D::4736356277739632910::1702011025::1702011026::1::::<><>::
-Bubbling_Oil_frames (16 x 32).png::CompressedTexture2D::4290826631321924640::1702011025::1702011026::1::::<><>::
-Flowers (16 x 16).png::CompressedTexture2D::4016743307119239486::1702011025::1702011026::1::::<><>::
-Fundo-Montanha.png::CompressedTexture2D::9202279962965671318::1702412259::1702412260::1::::<><>::
-House (112 x 96).png::CompressedTexture2D::769350649786228165::1702011025::1702011026::1::::<><>::
-Lava_frames (16 x 32).png::CompressedTexture2D::5475781766857927181::1702011025::1702011026::1::::<><>::
-Metal_Wire_fence (16 x 16).png::CompressedTexture2D::6148593740259853113::1702011025::1702011026::1::::<><>::
-Rock_shape (16 x 16).png::CompressedTexture2D::4605177414565272331::1702011025::1702011026::1::::<><>::
-Snack_machine_Bench_Trash_bin (16 x 16).png::CompressedTexture2D::7061680940230140839::1702011025::1702011026::1::::<><>::
-Water_frames (16 x 32).png::CompressedTexture2D::4078278415338393832::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/::1702079846
-LICENSE.txt::TextFile::-1::1702011025::0::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/1 - Onion Lad/::1702011026
-Hurt (16 x 16).png::CompressedTexture2D::7269479654482774977::1702011025::1702011026::1::::<><>::
-Idle (16 x 16).png::CompressedTexture2D::76716527544998843::1702011025::1702011026::1::::<><>::
-Inner_Fists (16 x 16).png::CompressedTexture2D::2059125879903164472::1702011025::1702011026::1::::<><>::
-Outer_Fists (16 x 16).png::CompressedTexture2D::6097295468564792085::1702011025::1702011026::1::::<><>::
-Run_&_Jump (16 x 16).png::CompressedTexture2D::1623122379893089706::1702011025::1702011026::1::::<><>::
-Standing_&_Jump_Punching (16 x 16).png::CompressedTexture2D::1516076867821020099::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/::1702104938
-Andando.png::CompressedTexture2D::1993793117581781216::1702079842::1702079846::1::::<><>::
-Hurt (32 x 32).png::CompressedTexture2D::1902575878211134893::1702011025::1702011026::1::::<><>::
-Idle (32 x 32).png::CompressedTexture2D::4096274924414171345::1702011025::1702011026::1::::<><>::
-Jumping (32 x 32).png::CompressedTexture2D::595969303292296538::1702011025::1702011027::1::::<><>::
-lenha-parado.png::CompressedTexture2D::7880276258630135671::1702075306::1702075332::1::::<><>::
-lenhapulo.png::CompressedTexture2D::7859932697397242796::1702104908::1702104930::1::::<><>::
-REFORMULADO PARADO.png::CompressedTexture2D::2706370254817113188::1702104908::1702104938::1::::<><>::
-Running (32 x 32).png::CompressedTexture2D::8104929155387945244::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/3 - Octi/::1702011027
-Hurt (16 x 16).png::CompressedTexture2D::5191741771115484036::1702011025::1702011027::1::::<><>::
-Idle_&_Movement (16 x 16).png::CompressedTexture2D::1993038143273316342::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/4 - Robo Pumpkin/::1702011027
-Hurt (16 x 16).png::CompressedTexture2D::7556225114460032345::1702011025::1702011027::1::::<><>::
-Standing (16 x 16).png::CompressedTexture2D::6617268947588565628::1702011025::1702011027::1::::<><>::
-Walking (16 x 16).png::CompressedTexture2D::7636378075360686020::1702011025::1702011027::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/5 - Daikon/::1702011026
-Hopping (16 x 32).png::CompressedTexture2D::6633887018550612152::1702011025::1702011026::1::::<><>::
-Hurt (16 x 32).png::CompressedTexture2D::4723369486418542232::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/6 - Robo Totem/::1702011026
-Armored_Standing (16 x 32).png::CompressedTexture2D::2633647214863517249::1702011025::1702011026::1::::<><>::
-Armored_Walking (16 x 32).png::CompressedTexture2D::900073835851249370::1702011025::1702011026::1::::<><>::
-Hurt (16 x 16).png::CompressedTexture2D::6126535906430289812::1702011025::1702011026::1::::<><>::
-Walking (16 x 16).png::CompressedTexture2D::1983142626033511624::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/7 - Rocket Cherry/::1702011026
-Flying (16 x 32).png::CompressedTexture2D::8436514619694698022::1702011025::1702011026::1::::<><>::
-Hopping (16 x 32).png::CompressedTexture2D::3002146179613584703::1702011025::1702011026::1::::<><>::
-Hurt (16 x 32).png::CompressedTexture2D::3522130057551767804::1702011025::1702011026::1::::<><>::
-Hurt_Falling (16 x 32).png::CompressedTexture2D::7589074751667560909::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/8 - Comrade Cheese Puff/::1702011026
-Dropped_Bomb (8 x 8).png::CompressedTexture2D::9161163788721470210::1702011025::1702011026::1::::<><>::
-Hurt (16 x 16).png::CompressedTexture2D::767104740854580061::1702011025::1702011026::1::::<><>::
-Missile (16 x 8).png::CompressedTexture2D::8748469372380553990::1702011025::1702011026::1::::<><>::
-Running_Away (16 x 16).png::CompressedTexture2D::5745271877781724173::1702011025::1702011026::1::::<><>::
-Tank_Movement (32 x 32).png::CompressedTexture2D::5305263630616345582::1702011025::1702011026::1::::<><>::
-::res://Assets Jogos/Sprite Pack 2/9 - Snip Snap Crab/::1702011026
-Claw_Animations (16 x 16).png::CompressedTexture2D::7353915155928503039::1702011025::1702011026::1::::<><>::
-Hurt (32 x 32).png::CompressedTexture2D::8862672923096423865::1702011025::1702011026::1::::<><>::
-Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::6547707330196898434::1702011025::1702011026::1::::<><>::
-Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::3789043059674951255::1702011025::1702011026::1::::<><>::
-::res://Prefabs/::1702533164
-box_pieces.tscn::PackedScene::54882083848846049::1702533164::0::1::::<><>::res://Scripts/box_pieces.gd
-coin.tscn::PackedScene::744462524052741080::1702154761::0::1::::<><>::uid://b110m13rn8ogh::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Coin.png
-moving_platform.tscn::PackedScene::3371325608656989790::1702104600::0::1::::<><>::res://Scripts/moving_platform.gd<>uid://b8qldi4obuluk::::res://Assets Jogos/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
-::res://Scripts/::1702533162
-box_pieces.gd::GDScript::-1::1702531025::0::1::::<>RigidBody2D<>::
-coin.gd::GDScript::-1::1702167115::0::1::::<>Area2D<>::
-enemy.gd::GDScript::-1::1702533162::0::1::::<>CharacterBody2D<>::
-moving_platform.gd::GDScript::-1::1702104082::0::1::::<>Node2D<>::
-world-01.gd::GDScript::-1::1702173184::0::1::::<>Node2D<>::
-::res://Shader/::1702533164
-arvore.tscn::PackedScene::6129361240631336703::1702533164::0::1::::<><>::res://TreeShader.gdshader<>uid://cpbj4gukktj8e::::res://Assets Jogos/Próprios/Blocos/Arvoras.png
-movement_clounds.gdshader::Shader::-1::1702533164::0::1::::<><>::
-=======
-::res://::1702531790
+::res://::1702587682
 break_box.gd::GDScript::-1::1702529985::0::1::::<>CharacterBody2D<>::
-break_box.tscn::PackedScene::3616817910064872016::1702530994::0::1::::<><>::res://break_box.gd<>uid://byjqvvvrfr5cy::::res://Assets Jogos/Nossos Sprites/Titles/tijolo.png
+break_box.tscn::PackedScene::3616817910064872016::1702533933::0::1::::<><>::res://break_box.gd<>uid://byjqvvvrfr5cy::::res://Assets Jogos/Nossos Sprites/Titles/tijolo.png<>res://Assets Jogos/Nossos Sprites/Titles/hit_flash.gdshader
 coin.tscn::PackedScene::335886411080178593::1702529985::0::1::::<><>::uid://b110m13rn8ogh::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Coin.png<>res://Scripts/coin.gd
 icon.svg::CompressedTexture2D::6329831594020881352::1702529985::1702529985::1::::<><>::
-Levels.tscn::PackedScene::7109732565532522983::1702530993::0::1::::<><>::uid://c30ivyxexsh8b::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>res://Scripts/world-01.gd<>uid://c03sjunwcsrwt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://bobdifxrvdbl3::::res://Prefabs/moving_platform.tscn<>uid://e1yaaeugd7ub::::res://coin.tscn<>uid://b3nkwrvno4tgm::::res://Actors/player.tscn<>uid://bcglyld43kykt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://dp84q4c4oig7p::::res://Actors/enemy.tscn<>res://Shader/movement_clounds.gdshader<>uid://be8ikud2s31v::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Montanha.png<>uid://c3rlryagexrvq::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png<>uid://kl0wnvlhp2bg::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png<>uid://dgfhutc3d5um3::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta.png<>uid://brsapyyi8hdo7::::res://break_box.tscn
+Levels.tscn::PackedScene::7109732565532522983::1702533933::0::1::::<><>::uid://c30ivyxexsh8b::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>res://Scripts/world-01.gd<>uid://c03sjunwcsrwt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://bobdifxrvdbl3::::res://Prefabs/moving_platform.tscn<>res://TreeShader.gdshader<>uid://e1yaaeugd7ub::::res://coin.tscn<>uid://b3nkwrvno4tgm::::res://Actors/player.tscn<>uid://bcglyld43kykt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://dp84q4c4oig7p::::res://Actors/enemy.tscn<>res://Shader/movement_clounds.gdshader<>uid://be8ikud2s31v::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Montanha.png<>uid://c3rlryagexrvq::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png<>uid://kl0wnvlhp2bg::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png<>uid://dgfhutc3d5um3::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta.png<>uid://brsapyyi8hdo7::::res://break_box.tscn
 Scripts.gd::GDScript::-1::1702529985::0::1::::<>CharacterBody2D<>::
-TreeShader.gdshader::Shader::-1::1702531014::0::1::::<><>::
-::res://Actors/::1702530993
+TreeShader.gdshader::Shader::-1::1702534394::0::1::::<><>::
+::res://Actors/::1702532181
 enemy.tscn::PackedScene::8282010064629888807::1702529984::0::1::::<><>::res://Scripts/enemy.gd<>uid://3q7uhus86iqw::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Cogu.png<>uid://dlh0q0o12263b::::res://Actors/hitbox.tscn
 hitbox.tscn::PackedScene::7947337808827233277::1702529984::0::1::::<><>::
-player.tscn::PackedScene::4379192599702733644::1702530993::0::1::::<><>::res://Scripts.gd<>uid://bes8r1h4ccotw::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/REFORMULADO PARADO.png<>uid://3n2qmo8acls7::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/Andando.png<>uid://dj8n7cktraq81::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/lenhapulo.png
+player.tscn::PackedScene::4379192599702733644::1702532181::0::1::::<><>::res://Scripts.gd<>uid://bes8r1h4ccotw::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/REFORMULADO PARADO.png<>uid://3n2qmo8acls7::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/Andando.png<>uid://dj8n7cktraq81::::res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/lenhapulo.png
+::res://addons/::1702533933
+::res://addons/todo_4/::1702533933
+CHANGELOG.md::TextFile::-1::1702533933::0::1::::<><>::
+notes.tscn::PackedScene::8060417247438541673::1702533933::0::1::::<><>::uid://bbl1guv1hfmns::::res://addons/todo_4/icons/gui_tab_menu.svg<>uid://jjy6xfj4oorl::::res://addons/todo_4/icons/text_file.svg<>uid://dtla1pq67n8n8::::res://addons/todo_4/icons/reload.svg<>uid://dogfui2bv802h::::res://addons/todo_4/icons/add.svg<>uid://dxptrpo2jt0mg::::res://addons/todo_4/icons/close.svg<>uid://sb8xofh5lkhc::::res://addons/todo_4/icons/save.svg<>uid://htsedbq68cg2::::res://addons/todo_4/icons/settings.svg
+plugin.cfg::TextFile::-1::1702533933::0::1::::<><>::
+plugin.gd::GDScript::-1::1702533933::0::1::::TD4<>EditorPlugin<>::
+::res://addons/todo_4/config/::1702533933
+config.ini::TextFile::-1::1702533933::0::1::::<><>::
+::res://addons/todo_4/icons/::1702533933
+add.svg::CompressedTexture2D::8154631891349391161::1702533933::1702533933::1::::<><>::
+close.svg::CompressedTexture2D::8805755913140964234::1702533933::1702533933::1::::<><>::
+gui_tab_menu.svg::CompressedTexture2D::2480908123299930260::1702533933::1702533933::1::::<><>::
+reload.svg::CompressedTexture2D::8515605480157036583::1702533933::1702533933::1::::<><>::
+save.svg::CompressedTexture2D::1267509040669254896::1702533933::1702533933::1::::<><>::
+settings.svg::CompressedTexture2D::531645291723325991::1702533933::1702533933::1::::<><>::
+text_file.svg::CompressedTexture2D::651792776175591333::1702533933::1702533933::1::::<><>::
+::res://addons/todo_4/notes/::1702533933
+general.txt::TextFile::-1::1702533933::0::1::::<><>::
+plugin.txt::TextFile::-1::1702533933::0::1::::<><>::
+::res://addons/todo_4/src/::1702533933
+config_keys.gd::GDScript::-1::1702533933::0::1::::T4DConfigKeys<>RefCounted<>::
+notes.gd::GDScript::-1::1702533933::0::1::::TD4Notes<>TDPanel<>::
+panel.gd::GDScript::-1::1702533933::0::1::::TDPanel<>Node<>::
+settings.gd::GDScript::-1::1702533933::0::1::::TD4Settings<>TDPanel<>::
 ::res://Assets Jogos/::1702529984
 ::res://Assets Jogos/Mini FX, Items & UI/::1702529984
 LICENSE.txt::TextFile::-1::1702529984::0::1::::<><>::
@@ -285,12 +76,14 @@ Speech_Emotes (16 x 16).png::CompressedTexture2D::6087959987060881248::170252998
 Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::1945625626181162718::1702529984::1702529984::1::::<><>::
 Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::2150779667881445047::1702529984::1702529984::1::::<><>::
 ::res://Assets Jogos/Nossos Sprites/::1702529984
-::res://Assets Jogos/Nossos Sprites/Fundo/::1702529984
+::res://Assets Jogos/Nossos Sprites/Fundo/::1702587797
 Fundo-Flores1.png::CompressedTexture2D::726154519714260124::1702529984::1702529984::1::::<><>::
+Fundo-Floresta-export.png::CompressedTexture2D::8361070339026677522::1702587797::1702587797::1::::<><>::
 Fundo-Floresta.png::CompressedTexture2D::7591178738815924644::1702529984::1702529984::1::::<><>::
 Fundo-Montanha.png::CompressedTexture2D::80464858069521817::1702529984::1702529984::1::::<><>::
 Fundo-Nuvem.png::CompressedTexture2D::6773922917326225110::1702529984::1702529984::1::::<><>::
-::res://Assets Jogos/Nossos Sprites/Titles/::1702529984
+::res://Assets Jogos/Nossos Sprites/Titles/::1702533933
+hit_flash.gdshader::Shader::-1::1702533933::0::1::::<><>::
 tijolo-parte-2.png::CompressedTexture2D::8934386469290474724::1702529984::1702529984::1::::<><>::
 tijolo-parte-3.png::CompressedTexture2D::2205399769751629785::1702529984::1702529984::1::::<><>::
 tijolo-parte-4.png::CompressedTexture2D::1085963629803397773::1702529984::1702529984::1::::<><>::
@@ -425,17 +218,16 @@ Claw_Animations (16 x 16).png::CompressedTexture2D::7353915155928503039::1702529
 Hurt (32 x 32).png::CompressedTexture2D::8862672923096423865::1702529985::1702529985::1::::<><>::
 Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::6547707330196898434::1702529985::1702529985::1::::<><>::
 Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::3789043059674951255::1702529985::1702529985::1::::<><>::
-::res://Prefabs/::1702530994
-box_pieces.tscn::PackedScene::54882083848846049::1702530994::0::1::::<><>::res://Scripts/box_pieces.gd
+::res://Prefabs/::1702532181
+box_pieces.tscn::PackedScene::54882083848846049::1702532181::0::1::::<><>::res://Scripts/box_pieces.gd
 coin.tscn::PackedScene::744462524052741080::1702529985::0::1::::<><>::uid://b110m13rn8ogh::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Coin.png
 moving_platform.tscn::PackedScene::3371325608656989790::1702529985::0::1::::<><>::res://Scripts/moving_platform.gd<>uid://b8qldi4obuluk::::res://Assets Jogos/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
-::res://Scripts/::1702531376
+::res://Scripts/::1702533933
 box_pieces.gd::GDScript::-1::1702531376::0::1::::<>RigidBody2D<>::
 coin.gd::GDScript::-1::1702529985::0::1::::<>Area2D<>::
-enemy.gd::GDScript::-1::1702529985::0::1::::<>CharacterBody2D<>::
+enemy.gd::GDScript::-1::1702533933::0::1::::<>CharacterBody2D<>::
 moving_platform.gd::GDScript::-1::1702529985::0::1::::<>Node2D<>::
 world-01.gd::GDScript::-1::1702529985::0::1::::<>Node2D<>::
-::res://Shader/::1702531448
-arvore.tscn::PackedScene::6129361240631336703::1702531448::0::1::::<><>::res://TreeShader.gdshader<>uid://cpbj4gukktj8e::::res://Assets Jogos/Próprios/Blocos/Arvoras.png
-movement_clounds.gdshader::Shader::-1::1702531014::0::1::::<><>::
->>>>>>> Stashed changes
+::res://Shader/::1702534394
+arvore.tscn::PackedScene::6129361240631336703::1702532182::0::1::::<><>::res://TreeShader.gdshader<>uid://cpbj4gukktj8e::::res://Assets Jogos/Próprios/Blocos/Arvoras.png
+movement_clounds.gdshader::Shader::-1::1702534394::0::1::::<><>::
