@@ -5,3 +5,4 @@ res://Actors/player.tscn
 res://break_box.tscn
 res://Prefabs/box_pieces.tscn
 res://Shader/arvore.tscn
+res://Prefabs/moving_platform.tscn

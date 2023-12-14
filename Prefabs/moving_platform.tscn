@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bobdifxrvdbl3"]
 
 [ext_resource type="Script" path="res://Scripts/moving_platform.gd" id="1_vf6n3"]
-[ext_resource type="Texture2D" uid="uid://b8qldi4obuluk" path="res://Assets Jogos/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png" id="2_4j0ni"]
+[ext_resource type="Texture2D" uid="uid://ng401nj2nvds" path="res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/cenario/ferro.png" id="2_80qbd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wcs8"]
 size = Vector2(32, 16)
@@ -13,9 +13,9 @@ script = ExtResource("1_vf6n3")
 collision_layer = 2
 
 [node name="sprit_platform" type="Sprite2D" parent="Platform"]
-texture = ExtResource("2_4j0ni")
+texture = ExtResource("2_80qbd")
 region_enabled = true
-region_rect = Rect2(96, 64, 32, 16)
+region_rect = Rect2(14.7555, 6.56698, 34.4583, 18.648)
 
 [node name="collision" type="CollisionShape2D" parent="Platform"]
 shape = SubResource("RectangleShape2D_7wcs8")
