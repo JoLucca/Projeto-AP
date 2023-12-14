@@ -1,4 +1,8 @@
-res://Prefabs/box_pieces.tscn
+res://Levels.tscn
 res://Shader/movement_clounds.gdshader
 res://TreeShader.gdshader
+res://Actors/player.tscn
+res://break_box.tscn
+res://Prefabs/box_pieces.tscn
+res://Shader/arvore.tscn
 res://Scripts/box_pieces.gd
