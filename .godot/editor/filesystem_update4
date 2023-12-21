@@ -1,8 +1,8 @@
 res://TreeShader.gdshader
 res://Shader/movement_clounds.gdshader
-res://Actors/Player2.tscn
-res://Actors/Player2.gd
+res://Prefabs/falling_platform.tscn
+res://Scripts/falling_platform.gd
 res://Levels.tscn
+res://Scripts/player.gd
+res://Global.gd
 res://Actors/player.tscn
-res://Scripts.gd
-res://Actors/enemy.tscn
