@@ -1,13 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1703275429
+=======
+::res://::1702593146
+>>>>>>> Stashed changes
 break_box.gd::GDScript::-1::1702529985::0::1::::<>CharacterBody2D<>::
 break_box.tscn::PackedScene::3616817910064872016::1702593194::0::1::::<><>::res://break_box.gd<>uid://byjqvvvrfr5cy::::res://Assets Jogos/Nossos Sprites/Titles/tijolo.png<>res://Assets Jogos/Nossos Sprites/Titles/hit_flash.gdshader
 coin.tscn::PackedScene::335886411080178593::1702529985::0::1::::<><>::uid://b110m13rn8ogh::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Coin.png<>res://Scripts/coin.gd
 icon.svg::CompressedTexture2D::6329831594020881352::1702529985::1702529985::1::::<><>::
 Levels.tscn::PackedScene::7109732565532522983::1702593417::0::1::::<><>::uid://c30ivyxexsh8b::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>res://Scripts/world-01.gd<>uid://c03sjunwcsrwt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://bobdifxrvdbl3::::res://Prefabs/moving_platform.tscn<>res://TreeShader.gdshader<>uid://e1yaaeugd7ub::::res://coin.tscn<>uid://b3nkwrvno4tgm::::res://Actors/player.tscn<>uid://bcglyld43kykt::::res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://cubiu2cbbkbym::::res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/cenario/grama.png<>uid://diotdbl5b88t8::::res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/cenario/focil.png<>uid://dp84q4c4oig7p::::res://Actors/enemy.tscn<>res://Shader/movement_clounds.gdshader<>uid://be8ikud2s31v::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Montanha.png<>uid://c3rlryagexrvq::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png<>uid://kl0wnvlhp2bg::::res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png<>uid://brsapyyi8hdo7::::res://break_box.tscn<>res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png
 Scripts.gd::GDScript::-1::1702529985::0::1::::<>CharacterBody2D<>::
+<<<<<<< Updated upstream
 TreeShader.gdshader::Shader::-1::1702593808::0::1::::<><>::
 ::res://Actors/::1702593417
+=======
+TreeShader.gdshader::Shader::-1::1702593124::0::1::::<><>::
+::res://Actors/::1702591070
+>>>>>>> Stashed changes
 enemy.tscn::PackedScene::8282010064629888807::1702529984::0::1::::<><>::res://Scripts/enemy.gd<>uid://3q7uhus86iqw::::res://Assets Jogos/Mini FX, Items & UI/Daniel/Cogu.png<>uid://dlh0q0o12263b::::res://Actors/hitbox.tscn
 hitbox.tscn::PackedScene::7947337808827233277::1702529984::0::1::::<><>::
 Player2.tscn::PackedScene::5772327652629502853::1702593417::0::1::::<><>::uid://4wu460xvamts::::res://Assets Jogos/Próprios/Personagem/lenha-parado.png<>res://Actors/Player2.gd<>uid://bba31uv2fnsdx::::res://Assets Jogos/Próprios/Personagem/lenhapulo.png<>uid://4g6npv5qbts1::::res://Assets Jogos/Próprios/Personagem/Andando.png
@@ -268,6 +277,12 @@ coin.gd::GDScript::-1::1702529985::0::1::::<>Area2D<>::
 enemy.gd::GDScript::-1::1702533933::0::1::::<>CharacterBody2D<>::
 moving_platform.gd::GDScript::-1::1702529985::0::1::::<>Node2D<>::
 world-01.gd::GDScript::-1::1702529985::0::1::::<>Node2D<>::
+<<<<<<< Updated upstream
 ::res://Shader/::1702593808
 arvore.tscn::PackedScene::6129361240631336703::1702593194::0::1::::<><>::res://TreeShader.gdshader<>uid://cpbj4gukktj8e::::res://Assets Jogos/Próprios/Blocos/Arvoras.png
 movement_clounds.gdshader::Shader::-1::1702593808::0::1::::<><>::
+=======
+::res://Shader/::1702593124
+arvore.tscn::PackedScene::6129361240631336703::1702591070::0::1::::<><>::res://TreeShader.gdshader<>uid://cpbj4gukktj8e::::res://Assets Jogos/Próprios/Blocos/Arvoras.png
+movement_clounds.gdshader::Shader::-1::1702593124::0::1::::<><>::
+>>>>>>> Stashed changes
