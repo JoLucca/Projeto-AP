@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=3 uid="uid://b3nkwrvno4tgm"]
 
-[ext_resource type="Script" path="res://Scripts.gd" id="1_wnp50"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_8fiv7"]
 [ext_resource type="Texture2D" uid="uid://bes8r1h4ccotw" path="res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/REFORMULADO PARADO.png" id="2_t63yx"]
 [ext_resource type="Texture2D" uid="uid://3n2qmo8acls7" path="res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/Andando.png" id="3_1h3v6"]
 [ext_resource type="Texture2D" uid="uid://dj8n7cktraq81" path="res://Assets Jogos/Sprite Pack 2/2 - Mr. Mochi/lenhapulo.png" id="3_ecgf2"]
@@ -131,11 +131,11 @@ animations = [{
 size = Vector2(13, 12)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v6wgx"]
-size = Vector2(9, 4)
+size = Vector2(9.5, 4)
 
 [node name="Player" type="CharacterBody2D"]
 collision_mask = 94
-script = ExtResource("1_wnp50")
+script = ExtResource("1_8fiv7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.5)
@@ -167,7 +167,7 @@ collision_layer = 0
 collision_mask = 64
 
 [node name="head_collision" type="CollisionShape2D" parent="head_collider"]
-position = Vector2(-1, -7)
+position = Vector2(-0.75, -7)
 shape = SubResource("RectangleShape2D_v6wgx")
 
 [connection signal="body_entered" from="hurtbox" to="." method="_on_hurtbox_body_entered"]

@@ -7,7 +7,7 @@ const JUMP_FORCE = -400.0
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var is_jumping := false
-var player_life := 5
+var player_life := 2
 var knockback_vector := Vector2.ZERO
 
 
@@ -45,8 +45,13 @@ func _physics_process(delta):
 	if knockback_vector != Vector2.ZERO:
 		velocity = knockback_vector 
 		
-	
 	move_and_slide()
+
+	for platforms in get_slide_collision_count():
+		var collision = get_slide_collision(platforms)
+		if collision.get_collider().has_method("has_collided_with"):
+			collision.get_collider().has_collided_with(collision, self)
+		
 	
 func _on_hurtbox_body_entered(body):
 	if body.is_in_group("enemies"):
@@ -76,8 +81,9 @@ func take_damage(knockback_force := Vector2.ZERO, duration := 0.25):
 func _on_head_collider_body_entered(body):
 	if body.has_method("break_sprite"):
 		body.hitpoints -= 1
-		if body.hitpoints < 1:
+		if body.hitpoints < 0:
 			body.break_sprite()
 		else:
 			body.animation_player.play("hit")
+			body.create_coin()
 		
