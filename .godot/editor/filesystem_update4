@@ -1,8 +1,6 @@
-res://Levels.tscn
+res://Prefabs/dialog_box.tscn
 res://TreeShader.gdshader
 res://Shader/movement_clounds.gdshader
-res://Actors/player.tscn
-res://break_box.tscn
-res://Prefabs/box_pieces.tscn
-res://Shader/arvore.tscn
-res://Prefabs/moving_platform.tscn
+res://Scripts/dialog_box.gd
+res://Levels.tscn
+res://singletons/dialog_manager.gd
