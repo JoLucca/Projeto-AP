@@ -17,7 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://b2gd4vff2wo4w" path="res://Actors/sapinho.tscn" id="11_8e36w"]
 [ext_resource type="Texture2D" uid="uid://c3rlryagexrvq" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Nuvem.png" id="11_y1aoj"]
 [ext_resource type="Texture2D" uid="uid://kl0wnvlhp2bg" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Flores1.png" id="12_brjcp"]
-[ext_resource type="PackedScene" uid="uid://brsapyyi8hdo7" path="res://Prefabs/break_box.tscn" id="14_c3ji8"]
+[ext_resource type="PackedScene" path="res://Prefabs/break_box.tscn" id="14_c3ji8"]
 [ext_resource type="Texture2D" uid="uid://drefuvuh3ta4a" path="res://Assets Jogos/Nossos Sprites/Fundo/Fundo-Floresta-export.png" id="14_y7w6k"]
 [ext_resource type="Script" path="res://Scripts/warning_sign.gd" id="19_b6aw6"]
 [ext_resource type="Texture2D" uid="uid://88dlglqv017a" path="res://Assets Jogos/Próprios/Balões de Fala/balao-de-fala22.png" id="20_lbnxd"]
@@ -621,8 +621,7 @@ position = Vector2(1277, 159)
 position = Vector2(123, 280)
 
 [node name="Sapinho" parent="." instance=ExtResource("11_8e36w")]
-position = Vector2(269, 272)
-autoplay = "idle"
+position = Vector2(268, 257)
 frame_progress = 0.482827
 
 [node name="enemy" parent="." instance=ExtResource("6_qs8sn")]
