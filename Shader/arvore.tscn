@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ctldxi30jnbgx"]
 
-[ext_resource type="Shader" path="res://TreeShader.gdshader" id="1_ilanp"]
+[ext_resource type="Shader" path="res://Shader/TreeShader.gdshader" id="1_ilanp"]
 [ext_resource type="Texture2D" uid="uid://cpbj4gukktj8e" path="res://Assets Jogos/Próprios/Blocos/Arvoras.png" id="2_ltqii"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xoq01"]

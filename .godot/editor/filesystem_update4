@@ -1,6 +1,6 @@
-res://Prefabs/dialog_box.tscn
-res://TreeShader.gdshader
-res://Shader/movement_clounds.gdshader
-res://Scripts/dialog_box.gd
 res://Levels.tscn
-res://singletons/dialog_manager.gd
+res://Shader/TreeShader.gdshader
+res://Shader/movement_clounds.gdshader
+res://Prefabs/dialog_box.tscn
+res://Actors/player.tscn
+res://Prefabs/coin_rigid.tscn

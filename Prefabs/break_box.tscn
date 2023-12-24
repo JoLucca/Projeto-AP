@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://brsapyyi8hdo7"]
 
-[ext_resource type="Script" path="res://break_box.gd" id="1_xlamm"]
+[ext_resource type="Script" path="res://Scripts/break_box.gd" id="1_xlamm"]
 [ext_resource type="Texture2D" uid="uid://byjqvvvrfr5cy" path="res://Assets Jogos/Nossos Sprites/Titles/tijolo.png" id="2_74fxr"]
 [ext_resource type="Shader" path="res://Assets Jogos/Nossos Sprites/Titles/hit_flash.gdshader" id="2_lkawi"]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://xqpv5sgfopwi"]
 
-[ext_resource type="Texture2D" path="res://Assets Jogos/Próprios/Balões de fala/balao-de-fala2.png" id="1_urktj"]
 [ext_resource type="Script" path="res://Scripts/dialog_box.gd" id="1_y6igo"]
-[ext_resource type="FontFile" path="res://Assets Jogos/Próprios/Balões de fala/RevMiniPixel.ttf" id="2_cvfqt"]
+[ext_resource type="Texture2D" uid="uid://bvwt6t2xbh8oc" path="res://Assets Jogos/Próprios/Balões de Fala/balao-de-fala2.png" id="2_1ao3o"]
+[ext_resource type="FontFile" uid="uid://s1sdc3a0vxlb" path="res://Assets Jogos/Próprios/Balões de Fala/RevMiniPixel.ttf" id="3_11ng4"]
 
 [node name="dialog_box" type="MarginContainer"]
 offset_right = 32.0
@@ -11,7 +11,7 @@ script = ExtResource("1_y6igo")
 
 [node name="back_ground" type="NinePatchRect" parent="."]
 layout_mode = 2
-texture = ExtResource("1_urktj")
+texture = ExtResource("2_1ao3o")
 region_rect = Rect2(8, 10, 18, 20)
 patch_margin_left = 2
 patch_margin_top = 4
@@ -27,12 +27,13 @@ theme_override_constants/margin_right = 4
 [node name="message" type="Label" parent="label_margin"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_cvfqt")
+theme_override_fonts/font = ExtResource("3_11ng4")
 theme_override_font_sizes/font_size = 8
 text = "
 "
 
-[node name="letter_timer_display" type="Timer" parent="."]
+[node name="letter_time_display" type="Timer" parent="."]
+wait_time = 0.1
 one_shot = true
 
-[connection signal="timeout" from="letter_timer_display" to="." method="_on_letter_timer_display_timeout"]
+[connection signal="timeout" from="letter_time_display" to="." method="_on_letter_timer_display_timeout"]

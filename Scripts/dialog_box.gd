@@ -8,9 +8,9 @@ const MAX_WIDTH = 156
 var text = ""
 var letter_index = 0
 
-var letter_display_timer := 0.7
-var space_display_timer := 0.5
-var punctuaction_display_timer := 0.2
+var letter_display_timer := 0.00
+var space_display_timer := 0.00
+var punctuaction_display_timer := 0.00
 
 signal text_display_finished()
 
@@ -48,7 +48,6 @@ func display_letter():
 			letter_time_display.start(space_display_timer)
 		_:
 			letter_time_display.start(letter_display_timer)
-
 
 func _on_letter_timer_display_timeout():
 	display_letter()
