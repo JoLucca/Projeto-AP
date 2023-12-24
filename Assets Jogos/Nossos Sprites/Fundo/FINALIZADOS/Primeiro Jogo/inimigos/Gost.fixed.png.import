@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://q6f8qeouqily"
-path="res://.godot/imported/Frog-0001.png-8b955190c0be878eadca11e4d64ce1c5.ctex"
+uid="uid://b5dy24b3e2qd8"
+path="res://.godot/imported/Gost.fixed.png-6d1d1274e64f7d9a2e3e1f185ba14e7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/inimigos/Frog-0001.png"
-dest_files=["res://.godot/imported/Frog-0001.png-8b955190c0be878eadca11e4d64ce1c5.ctex"]
+source_file="res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/inimigos/Gost.fixed.png"
+dest_files=["res://.godot/imported/Gost.fixed.png-6d1d1274e64f7d9a2e3e1f185ba14e7f.ctex"]
 
 [params]
 
