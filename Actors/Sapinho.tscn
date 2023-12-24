@@ -1,18 +1,78 @@
-[gd_scene load_steps=2 format=3 uid="uid://b2gd4vff2wo4w"]
+[gd_scene load_steps=12 format=3 uid="uid://b2gd4vff2wo4w"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_w3lqu"]
+[ext_resource type="Texture2D" path="res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/inimigos/Frog.fixed.png" id="1_2yruk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37ugg"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tis0o"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbchi"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jqmld"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ykpu"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0vki"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1p0ah"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhbii"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfr2k"]
+atlas = ExtResource("1_2yruk")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1usay"]
 animations = [{
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37ugg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tis0o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbchi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jqmld")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ykpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0vki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1p0ah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhbii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dfr2k")
+}],
 "loop": true,
 "name": &"idle",
 "speed": 5.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-3, -1)
-scale = Vector2(0.82, 1)
-sprite_frames = SubResource("SpriteFrames_w3lqu")
+[node name="Sapinho" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_1usay")
 animation = &"idle"
-frame_progress = 0.410693
