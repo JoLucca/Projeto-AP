@@ -67,7 +67,13 @@ func follow_camera(camera):
 	remote_transform.remote_path = camera_path
 	
 func take_damage(knockback_force := Vector2.ZERO, duration := 0.25):
-	player_life -= 1		
+	
+	if player_life > 0:
+		player_life -= 1	
+	else:	
+		queue_free()
+	
+	
 	if knockback_force != Vector2.ZERO:
 		knockback_vector = knockback_force
 		
