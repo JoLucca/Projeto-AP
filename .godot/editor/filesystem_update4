@@ -1,7 +1,5 @@
-res://Levels.tscn
 res://Prefabs/box_pieces.tscn
-res://Shader/movement_clounds.gdshader
 res://Shader/TreeShader.gdshader
+res://Shader/movement_clounds.gdshader
 res://Prefabs/coin_rigid.tscn
-res://spike_area.gd
-res://Scripts/player.gd
+res://Levels.tscn

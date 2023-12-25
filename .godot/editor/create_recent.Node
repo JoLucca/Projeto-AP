@@ -1,3 +1,9 @@
+Label
+TextureRect
+HBoxContainer
+MarginContainer
+Control
+CanvasLayer
 CollisionShape2D
 Sprite2D
 Area2D
@@ -7,8 +13,3 @@ CharacterBody2D
 Node2D
 Timer
 AnimatableBody2D
-RigidBody2D
-Marker2D
-VisibleOnScreenNotifier2D
-RayCast2D
-RemoteTransform2D

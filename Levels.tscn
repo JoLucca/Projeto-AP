@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://c8kaiyv1mtngp"]
+[gd_scene load_steps=35 format=3 uid="uid://c8kaiyv1mtngp"]
 
 [ext_resource type="Texture2D" uid="uid://c30ivyxexsh8b" path="res://Assets Jogos/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="1_8td4s"]
 [ext_resource type="Script" path="res://Scripts/world-01.gd" id="1_ki70e"]
@@ -549,6 +549,13 @@ size = Vector2(19, 15)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xj6hr"]
 size = Vector2(464, 9.25)
 
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_wcwpu"]
+frames = 5
+frame_1/duration = 1.0
+frame_2/duration = 1.0
+frame_3/duration = 1.0
+frame_4/duration = 1.0
+
 [node name="World-01" type="Node2D"]
 position = Vector2(-1, 1)
 script = ExtResource("1_ki70e")
@@ -630,25 +637,25 @@ position = Vector2(268, 257)
 frame_progress = 0.482827
 
 [node name="enemy" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1105, 277)
+position = Vector2(722, 248)
 
 [node name="enemy2" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1129, 280)
+position = Vector2(745, 261)
 
 [node name="enemy3" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1152, 280)
+position = Vector2(779, 257)
 
 [node name="enemy4" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1178, 275)
+position = Vector2(807, 251)
 
 [node name="enemy5" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1201, 273)
+position = Vector2(832, 247)
 
 [node name="enemy6" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1230, 279)
+position = Vector2(871, 257)
 
 [node name="enemy7" parent="." instance=ExtResource("6_qs8sn")]
-position = Vector2(1261, 278)
+position = Vector2(900, 258)
 
 [node name="BG" type="ParallaxBackground" parent="."]
 
@@ -772,5 +779,33 @@ scale = Vector2(0.995726, 1)
 texture = ExtResource("22_wji1q")
 region_enabled = true
 region_rect = Rect2(0, 0, 468, 10)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="control" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="container" type="MarginContainer" parent="HUD/control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="coins_container" type="HBoxContainer" parent="HUD/control/container"]
+layout_mode = 2
+
+[node name="coins_icon" type="TextureRect" parent="HUD/control/container/coins_container"]
+layout_mode = 2
+texture = SubResource("AnimatedTexture_wcwpu")
+
+[node name="coins_counter" type="Label" parent="HUD/control/container/coins_container"]
+layout_mode = 2
 
 [connection signal="body_entered" from="spike_area" to="spike_area" method="_on_body_entered"]

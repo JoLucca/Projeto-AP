@@ -1,6 +1,15 @@
 extends Node
 
 var tela_cheia := false
+var coin := 0
+var score := 0
+
+
+
+
+
+
+
 
 func _input(event):
 	if event.is_action_pressed("Fullscreen"):

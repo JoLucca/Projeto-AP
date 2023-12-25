@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bba31uv2fnsdx"
-path="res://.godot/imported/lenhapulo.png-489e6cfadca4b3a01d145ced5ab4fe62.ctex"
+uid="uid://cv7qur40sf6x7"
+path="res://.godot/imported/Coin-UI.png-f9dce56c410ecc6df0b07546ca33f562.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets Jogos/Próprios/Personagem/lenhapulo.png"
-dest_files=["res://.godot/imported/lenhapulo.png-489e6cfadca4b3a01d145ced5ab4fe62.ctex"]
+source_file="res://Assets Jogos/Nossos Sprites/Fundo/FINALIZADOS/Primeiro Jogo/HUD/Coin-UI.png"
+dest_files=["res://.godot/imported/Coin-UI.png-f9dce56c410ecc6df0b07546ca33f562.ctex"]
 
 [params]
 
